@@ -1,0 +1,27 @@
+*{
+    transition: 0.3s ease-in-out;
+}
+h1{
+    margin:12px;
+    font-size: 45px;
+    font-weight: 550;
+}
+p{
+    margin: 12px;
+    font-size: 25px;
+}
+ul li{
+    cursor: pointer;
+    font-size: 24px;
+    padding: 12px 15px;
+    margin: 12px;
+    background-color: #1b8be5;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+ul{
+    display: flex;
+}
+li:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

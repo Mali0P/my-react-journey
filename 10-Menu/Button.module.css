@@ -1,0 +1,31 @@
+*{
+    transition: 0.8s;
+}
+.passBtn{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 14px 23px;
+    position: absolute;
+right: 10px;
+}
+.menu{
+    background-color: yellow;
+    width: 80%;
+    height: 100vh;
+ text-align: left;
+  
+    position: absolute;
+  left: 0%;
+  
+
+}
+.hideMenu{
+    position: absolute;
+    
+    left: -100%;;
+}
+ul li{
+    list-style: none;
+    padding: 10px 0px;
+}
+

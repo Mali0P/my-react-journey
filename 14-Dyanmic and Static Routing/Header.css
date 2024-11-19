@@ -1,0 +1,57 @@
+*{
+    transition: 0.3s ease-in-out;
+}
+h1{
+    margin:12px;
+    font-size: 45px;
+    font-weight: 550;
+}
+h2{
+    font-size: 24px;
+    font-weight: 490;
+}
+p{
+    margin: 12px;
+    font-size: 25px;
+}
+ul li{
+    cursor: pointer;
+    font-size: 24px;
+    padding: 12px 15px;
+    margin: 12px;
+    background-color: #1b8be5;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+ul{
+    display: flex;
+}
+li:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1320px;
+  border: 1px solid rgb(167, 167, 167);
+    width: 1320px;
+    margin: 12px;
+    text-align: center;
+    
+}
+.container p{
+    font-size: 16px;
+}
+.blogItems{
+    flex-basis: 23%;
+    margin: 1%;
+    padding: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 13px;
+    font-size: 13px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}

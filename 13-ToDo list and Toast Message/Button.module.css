@@ -1,0 +1,83 @@
+*{
+    transition: 0.3s ease-in-out;
+    font-family: sans-serif;
+}
+body{
+    background-color: #c3e5d5;
+}
+.todo{
+    background-color: white;
+    margin: auto;
+    margin-top: 2%;
+    width: 40vw;
+    height: 90vh;
+    display: flex;
+    padding: 1%;
+    border-radius: 10%;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.todo h1{
+    font-size: 3rem;
+    font-weight: 550;
+    margin-bottom: 5%;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 0.8rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+form{
+    
+
+    padding: 5%;
+    width: 80%;
+    text-align: center;
+    
+}
+
+input{
+    background-color: #c3e5d5;
+    padding: 12px;
+    margin: 0% 1%;
+    width: 70%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.showData{
+    margin-top: 4%;
+    width: 80%;
+   text-align: left;
+   height: fit-content;
+}
+
+li{
+  color: black;
+    list-style: none;
+margin-bottom: 2%;
+position: relative;
+background-color: #c3e5d5;
+padding: 4%;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.markedli{
+    text-decoration: line-through;
+    color: rgb(255, 255, 255);
+    
+}
+
+ul{
+ width: 100%;
+padding: 0;
+}
+.cross{
+    position: absolute;
+    right: 10%;
+}
+
+li:hover{
+    cursor: pointer;
+    background-color: #5cfdb2;
+}

@@ -1,0 +1,14 @@
+.passBtn{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 14px 20px;
+
+    
+
+}
+.inputField{
+    background-color: rgb(241, 241, 241);
+    padding: 14px 20px;
+    margin: 0 10px;
+    transition: 0.3s ease-in-out;
+}
